@@ -8,7 +8,7 @@ var express = require('express'),
 	jwt = require('jsonwebtoken');
 
 
-var config = require('./config.js');
+var config = require('./config');
 
 var port = process.env.PORT || config.serverPort;
 var env = process.env.NODE_ENV || config.serverEnv;

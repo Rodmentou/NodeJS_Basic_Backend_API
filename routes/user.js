@@ -22,9 +22,11 @@ module.exports = function (apiRouter) {
 			});
 		})
 
+		
+		})
 		.delete( function (req, res) {
 			console.log("Hello, I'm on DELETE.");
-		});
-	});
+			res.send('Delete route working.');
+		});;
 
 }
